@@ -16,10 +16,10 @@ pip install requests
 
 ## 🚀 Usage
 1. Modify the `emails` list in the script with the target email addresses.
-2. Replace `TENANTID` in the `url` variable with the actual Azure AD tenant ID.
+2. Replace `tenant-id-here` in the `url` variable with the actual Azure AD tenant ID.
 3. Run the script:
 ```sh
-python 
+python azure_ad_enum.py
 ```
 
 ## 📌 Response Interpretation
